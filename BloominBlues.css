@@ -1,0 +1,243 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
+
+body {
+background: #b9d6eb;
+font-family: "Josefin Sans", sans-serif;
+}
+
+h1, h2, h3, .white {
+font-family: "Oswald", sans-serif;
+}
+
+h1 {
+color: #5d5269;
+}
+
+h2, h3, .white {
+color: #fff;
+}
+
+a:link, a:visited, a:active {
+font-family: "Josefin Sans", sans-serif;
+color: #000;
+transition: 0.5s;
+transition-timing-function: linear;
+}
+
+a:hover {
+color: #8dbbe6;
+}
+
+/* Top/Nav bar */
+
+.topbar {
+border-bottom: 1px solid #000;
+border-right: 1px solid #000;
+border-left: 1px solid #000;
+color: #fff;
+font-family: "Josefin Sans", sans-serif;
+background: #08123d!important;
+}
+
+.table .top a:link, .table .top a:active, .table .top a:visited, .table th a:link, .table th a:active, .table th a:visited , .topbar a:link, .topbar a:visited, .topbar a:active, .table .bottom a:link, .table .bottom a:active, .table .bottom a:visited {
+color: #fff;
+font-weight: normal;
+transition: 0.5s!important;
+transition-timing-function: linear!important;
+text-decoration: none!important;
+}
+
+.table .top a:hover, .table th a:hover, .topbar a:hover, .table .bottom a:hover {
+color: #8dbbe6;
+}
+
+.badge {
+background: #72a2cc;
+}
+
+.navbar {
+background: #08123d;
+border-bottom: 1px solid #000;
+}
+
+.navbar-default .navbar-nav > li > a {
+color: #fff;
+font-weight: normal;
+font-family: "Oswald", sans-serif;
+}
+
+.navbar-default .navbar-nav li a:hover {
+background: none repeat scroll 0% 0% #4d6594;
+color: #fff;
+font-family: "Oswald", sans-serif;
+}
+
+/*Sidebar */
+
+.row {
+background: #6d9bbf;
+}
+
+.sidebar h3 {
+color: #fff;
+font-family: "Oswald"
+}
+
+.panel {
+border: 1px solid #000!important;
+border-radius: 10px;
+background: #f2faf8;
+box-shadow: none!important;
+}
+
+.progress {
+background: #fff;
+border: 1px solid #000;
+color: #000;
+font-family: "Josefin Sans", sans-serif;
+}
+
+.progress-bar-warning, .progress-bar-danger, .progress-bar-success, .progress-bar {
+background: #b9d6eb;
+}
+
+.chatContainer {
+border: 1px solid #000;
+}
+
+.chat_light {
+background: #f2faf8!;
+}
+
+.chat_dark {
+background: #d9edf2;
+}
+
+#txtChatMessage {
+background: #fff;
+border: 1px solid #000;
+color: #000;
+border-radius: 7px;
+}
+
+/*Main Tables*/
+
+.container {
+background: none;
+box-shadow: none;
+}
+
+.main {
+border: 1px solid #000;
+border-collapse: collapse;
+box-shadow: none;
+}
+
+.col-md-9 {
+background: #e3ecf2;
+box-shadow: none!important;
+border-right: 1px solid #000;
+}
+
+#lion_image {
+border-radius: 15px;
+overflow: hidden;
+border: 1px solid #000;
+}
+
+#lion_image > div {
+background: url("https://www.dropbox.com/s/dot3vybphv57wcq/NgorongoroWetDay.png?dl=1") repeat scroll 0% 0% transparent !important;
+}
+
+.table {
+border: 1px solid #000;
+}
+
+.table .top, .table th, .table .bottom {
+background: #2d4575;
+}
+
+.table .right, td, .table .right_odd {
+background: #d9edf2;
+}
+
+.inner-table .right {
+background: #f2faf8;
+}
+
+.inner-table .left, .table .left {
+background: #72a2cc;
+border: none!important;
+color: #000;
+}
+
+div .left {
+background: #72a2cc;
+border: 1px solid #000;
+}
+
+.left img {
+border: 1px solid #000;
+border-radius: 5px;
+}
+
+/* Misc */
+
+input[type="submit"], input[type="button"]  {
+background: #08123d!important;
+border: 1px solid #000000;
+color: #fff;
+font-weight: normal;
+text-shadow: none!important;
+font-size: 11px;
+transition: .75s;
+}
+
+input[type="submit"]:hover, input[type="button"]:hover {
+text-shadow: none!important;
+background: #4d6594!important;
+border: 1px solid #000;
+color: #fff;
+font-size: 11px;
+font-weight: normal;
+}
+
+input[type="submit"]:active, input[type="button"]:active {
+background: #f2faf8!important;
+color: #000;
+font-size: 11px;
+}
+
+.attack-won {
+background: #f2faf8!;
+}
+
+.attack-lost {
+background: #d9edf2;
+}
+
+.alert, .alert-success, .new-msg {
+border: 1px solid #000;
+color: #000;
+background: #d9edf2;
+}
+
+.breadcrumb {
+background: #72a2cc;
+color: #000
+}
+
+.footer {
+	background: #08123d;
+	text-decoration: none!important;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
+}
+
+ul.bottomlinks {
+	background: none!important;
+	text-decoration: none!important;
+}
+
